@@ -1,0 +1,365 @@
+/* General Styles */
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: "Lato", sans-serif;
+}
+
+/* header styles*/
+#nav-bar{
+	position:sticky;
+	top:0;
+	z-index:10;
+}
+
+.navbar{
+	background-image:linear-gradient(to right, #a517ba, #5f1782);
+	padding:0 !important;
+}
+
+.navbar-brand img{
+	height:40px;
+	padding-left:20px;
+}
+
+.navbar-nav li{
+	padding:0 10px;
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight:600;
+	float:right;
+	text-align:left;
+}
+
+.navbar-toggler{
+	outline: none !important;
+}
+
+.fa-bars{
+	color:#fff;
+	font-size:32px !important;
+}
+
+/* footer styles */
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color:#fff;
+}
+
+.footer-box{
+    padding:20px;
+}
+
+.footer-box img{
+    width:120px;
+    margin-bottom:20px;
+}
+
+.footer-box .fa{
+    margin-right:8px;
+    font-size:25px;
+    height:40px;
+    width:40px;
+    text-align:center;
+    padding-top:7px;
+    border-radius:2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.fa-facebook{
+    color:#fff;
+}
+
+.fa-twitter{
+    color:#fff;
+}
+
+.fa-instagram{
+    color:#fff;
+}
+
+.fa-linkedin{
+    color:#fff;
+}
+
+.fa-youtube{
+    color:#fff;
+}
+
+/* homepage, events, schedule and profile styles*/
+#top{
+	padding-top:5%;
+	background-image:linear-gradient(to right, #a517ba, #5f1782);
+	color:#fff;
+}
+
+#homepage a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.welcome{
+	font-size:36px;
+	font-weight:600;
+	margin-top:100px;
+}
+
+.waves{
+    width:100%;
+}
+
+.content-title{
+    font-family: "Fjalla One", sans-serif;
+    font-size:36px;
+    font-weight:600;
+    margin-top:20px;
+}
+
+.content{
+    font-family: "Fjalla One", sans-serif;
+    font-size:18px;
+    padding-left:4%;
+    padding-right:4%;
+    overflow:hidden;
+}
+
+.content-link{
+    color:#a517ba;
+}
+
+.hp-content-link:hover{
+    color:#a517ba;
+}
+
+.eventimage{
+    width:50%;
+}
+
+.eventimage2{
+    width:50%;
+    float:right;
+}
+
+.overflow-remove {
+    overflow:hidden;
+}
+
+.schedule-box{
+    font-family:"Fjalla One", sans-serif;
+    padding:10px;
+}
+
+.schedule-card{
+    width:100%;
+    padding-top:20px;
+    font-family:"Lato", sans-serif;
+    border-radius:0;
+    border:none;
+}
+
+.card-body{
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.card-title{
+    color:#fff;
+}
+
+.booking-title{
+    font-family: "Lato", sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#fff;
+    margin-bottom:10px;
+}
+
+.card-title-bottom{
+    color:#fff;
+}
+.modal-content{
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+    color:#fff;
+}
+
+.modal-content a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.modal-title{
+    font-size:30px;
+}
+
+.modal-body{
+    font-family:"Lato", sans-serif;
+}
+
+.modal-footer{
+    width:100%;
+}
+
+.close{
+    color:#fff;
+}
+
+/* login and register styles */
+input,
+textarea {
+    background-color: #F3E5F5;
+    border-radius:50px !important;
+    padding:12px 15px 12px 15px !important;
+    width:100%;
+    box-sizing:border-box;
+    border:none !important;
+    border:1px solid #F3E5F5 !important;
+    font-size:16px !important;
+    color:#000 !important;
+    font-weight:400;
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+    box-shadow:none !important;
+    border:1px solid #D500F9 !important;
+    outline-width:0;
+    font-weight:400;
+}
+
+button:focus {
+    -moz-box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+    box-shadow:none !important;
+    outline-width:0;
+}
+
+.card {
+    border-radius:0;
+    border:none;
+}
+
+.card1 {
+    width:50%;
+    padding:40px 30px 10px 30px;
+}
+
+.card2 {
+    width:50%;
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#logo {
+    width:150px;
+    height:75px;
+}
+
+.heading {
+    margin-bottom:60px !important;
+}
+
+::placeholder {
+    color:#000 !important;
+    opacity:1;
+}
+
+:-ms-input-placeholder {
+    color:#000 !important;
+}
+
+::-ms-input-placeholder {
+    color:#000 !important;
+}
+
+.form-control-label {
+    font-size:12px;
+    margin-left:15px;
+}
+
+.msg-info {
+    padding-left:15px;
+    margin-bottom:30px;
+}
+
+.btn-color {
+    border-radius:50px;
+    color:#fff;
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+    padding:15px;
+    cursor:pointer;
+    border:2px solid #fff !important;
+    margin-top:40px;
+}
+
+.btn-color:hover {
+    color:#fff;
+    background-image:linear-gradient(to right, #5f1782, #a517ba);
+}
+
+.btn-white {
+    border-radius:50px;
+    color:#D500F9;
+    background-color:#fff;
+    padding:8px 40px;
+    cursor:pointer;
+    border:2px solid #D500F9 !important;
+}
+
+.btn-white:hover {
+    color:#fff;
+    background-image:linear-gradient(to right, #a517ba, #5f1782);
+}
+
+a {
+    color:#000;
+}
+
+a:hover {
+    color:#000;
+    text-decoration:none;
+}
+
+.bottom {
+    width:100%;
+    margin-top:50px !important;
+}
+
+.sm-text {
+    font-size:15px;
+}
+
+@media screen and (max-width: 992px) {
+    .card1 {
+        width:100%;
+        padding:40px 30px 10px 30px;
+    }
+
+    .card2 {
+        width:100%;
+    }
+
+    .right {
+        margin-top:100px !important;
+        margin-bottom:100px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding:10px !important;
+    }
+
+    .card2 {
+        padding:50px;
+    }
+
+    .right {
+        margin-top:50px !important;
+        margin-bottom:50px !important;
+    }
+}
